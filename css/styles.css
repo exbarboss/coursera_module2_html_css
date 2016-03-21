@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 300px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border: 1px solid black;
+  width: 250px;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.section_style {
+  position: relative;
+  border: 1px solid black;
+  background-color: grey;
+  margin-bottom: 15px;
+}
+
+.header1_style {
+  background-color: #D59898;
+}
+
+.header2_style {
+  background-color: #C14543;
+}
+
+.header3_style {
+  background-color: #E5D198;
+}
+
+p {
+  padding: 5px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  #sec1 {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  #sec2 {
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+  }
+  #sec3 {
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  #sec1 {
+    width: 48.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+  }
+  #sec2 {
+    width: 48.5%;
+    margin-right: 1%;
+    float: left;
+  }
+  #sec3 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+  }
+}
+
+@media (max-width: 767px) {
+  #sec1 {
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+  }
+  #sec2 {
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+  }
+  #sec3 {
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+  }
+}
